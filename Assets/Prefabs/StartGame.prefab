@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6279047944288391332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6279047944288391335}
+  - component: {fileID: 6279047944288391333}
+  - component: {fileID: 6279047944288391334}
+  m_Layer: 0
+  m_Name: StartGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6279047944288391335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279047944288391332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 288.78412, y: 44.376427, z: -76.33876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6279047944288391333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279047944288391332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 1
+  AutoObjectParentSync: 1
+--- !u!114 &6279047944288391334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6279047944288391332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d782cfa54918b54eaa7a1e4d0a6ae5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mrBeast: {fileID: 142463888755319510, guid: f9bf3a9521708d84688e2258b429d142, type: 3}
+  player: {fileID: 4935199796299537647, guid: 27b527c5dfb533648970d4cdd5a887c7, type: 3}
+  gameVariables: {fileID: 6577767049979954683, guid: 176c34762a5b31049ab42172c2b13bab, type: 3}
+  taskObjects:
+  - {fileID: 955164977761210444, guid: 62ee2e6953932d840833a1e05d01ec08, type: 3}
+  - {fileID: 4398802863987083962, guid: 3231a08e3fc894f47b9f3ba8a3bafa09, type: 3}
+  - {fileID: 9416533108285273, guid: d5f6f0c86bd25834b973936c6c3fc21c, type: 3}
+  - {fileID: 3914065986297338141, guid: 23b77ac21af609e45b4100dbba3a8d5d, type: 3}
+  playerButton: {fileID: 4229794035916622376, guid: db9f9737b2496d64b8521cd1c9a77770, type: 3}
+  money: {fileID: 1257383336343737503, guid: 49304de78abd10e4396f771b76904771, type: 3}
+  moneyMinSpawn: 20
+  moneyMaxSpawn: 35
+  health: {fileID: 5885839066122620262, guid: 807ece0e80137cd4480ffe14fd71b558, type: 3}
+  healthMinSpawn: 4
